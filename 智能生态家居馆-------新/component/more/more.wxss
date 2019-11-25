@@ -1,0 +1,16 @@
+/* component/more/more.wxss */
+.more{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+}
+.more text{
+	font-size:30rpx;
+	color:#bacdc3;
+}
+.more image{
+	width:107rpx;
+	height:64rpx;
+  /* background:url(../../image/ye/empty.gif); */
+}

@@ -1,0 +1,65 @@
+/* pages/my/history/history.wxss */
+.history_wrap{
+	box-sizing: border-box;
+	padding-top:32rpx;
+	width:100vw;
+	height:100vh;
+	background-color:#f7f7f7;
+}
+.his_wrap_box{
+	display:flex;
+	align-items:center;
+	width:100%;
+	height:244rpx;
+	margin-bottom:32rpx;
+	background-color:#fff;
+}
+.his_wrap_box image{
+	width: 218rpx;
+	height: 210rpx;
+	margin-left:36rpx;
+}
+.his_wrap_box_right{
+	flex:1;
+	box-sizing:border-box;
+	padding-right:40rpx;
+	height:100%;
+	margin-left:22rpx;
+}
+.his_wrap_right_top{
+	width:100%;
+	margin-top:20rpx;
+}
+.his_wrap_right_top text{
+	font-size: 26rpx;
+	color:#383a3a;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	word-break: break-all;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2; 	
+}
+.his_wrap_right_bottom{
+	display:flex;
+	justify-content: space-between;
+	width:100%;
+	margin-top:50rpx;
+}
+.his_wrap_right_bottom .his_buy .his_text{
+	font-size:36rpx;
+	color:#ff3f3f;
+}
+.his_wrap_right_bottom .his_buy .his_text text{
+	font-size:24rpx;
+	color:#ff3f3f;
+}
+.his_wrap_right_bottom .his_buy text{
+	font-size:22rpx;
+	color:#9c9f9e;
+}
+.his_wrap_right_bottom .city{
+	font-size:24rpx;
+	color:#9c9f9e;
+	line-height:140rpx;
+}

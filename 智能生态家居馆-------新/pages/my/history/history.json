@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "more":"../../../component/more/more"
+  },
+   "navigationBarTitleText":"历史纪录"
+}

@@ -7,7 +7,11 @@
 		"pages/di/shop/shop",
 		"pages/di/me/me",
 		"pages/di/tuikuan/tuikuan",
-    "pages/di/collection/collection"
+    "pages/di/collection/collection",
+    "pages/my/discounts/discounts",
+    "pages/my/collect/collect",
+    "pages/my/history/history",
+    "pages/my/service/service"
 	],
 	"window": {
 		"backgroundTextStyle": "light",

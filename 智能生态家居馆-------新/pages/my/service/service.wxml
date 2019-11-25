@@ -1,0 +1,40 @@
+<!--pages/my/service/service.wxml退款售后-->
+<!-- <view id="service">
+	<view class="ser-box">
+		<view class="ser-top">
+			<image src="../../../image/ye/icon.png"></image>
+			<text>neodpillo海外旗舰店</text>
+			<icon class="iconfont icon-icon"></icon>
+		</view>
+		<view class="ser-center">
+			<view class="ser-pic-title">
+				<image src="../../../image/ye/3.png"></image>
+				<view class="ser-title">
+					<text>
+						NeoDPillo印尼邓禄普恶女额絮儿特备违反唱歌女官方正品原装进口天然乳胶枕头波浪颈椎枕
+					</text>
+					<text>
+						×{{1}}
+					</text>
+					<view class="ser-dity">
+						共{{12}}件商品
+					</view>
+				</view>
+			</view>
+			<view class="ser-pice">
+				<view class="ser-recede">
+					<image src="../../../image/ye/01_03.png"></image>
+					<text>退货退款 退款成功</text>
+				</view> 
+				<view class="pice">
+					退款金额：￥88.00
+				</view>
+			</view>
+		</view>
+		<view class="ser-bottom">
+			<view class="title">
+				查看详情
+			</view>
+		</view>
+	</view>
+</view> -->

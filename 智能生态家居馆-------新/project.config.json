@@ -14,7 +14,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.3",
-	"appid": "wxcec2b7bc261ce1a7",
+	"appid": "wxe5c5760102b12d02",
 	"projectname": "%E6%99%BA%E8%83%BD%E7%94%9F%E6%80%81%E5%AE%B6%E5%B1%85%E9%A6%86-%E6%96%B0",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -78,6 +78,48 @@
 					"id": -1,
 					"name": "pages/di/collection/collection",
 					"pathName": "pages/di/collection/collection",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/di/me/me",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/my/collect/collect收藏",
+					"pathName": "pages/my/collect/collect",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "优惠券/my/discounts/discounts",
+					"pathName": "pages/my/discounts/discounts",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "历史/history/history",
+					"pathName": "pages/my/history/history",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "售后service/service",
+					"pathName": "pages/my/service/service",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "新品/news/news",
+					"pathName": "pages/di/news/news",
 					"scene": null
 				}
 			]

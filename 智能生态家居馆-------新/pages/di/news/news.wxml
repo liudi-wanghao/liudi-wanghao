@@ -1,2 +1,25 @@
-<!--pages/di/news/news.wxml-->
-<text>pages/di/news/news.wxml</text>
+<!--pages/di/news/news.wxml新品-->
+
+<view id="product">
+	<image class="product-img" mode="aspectFill" src="../../../image/ye/222.jpg"></image>
+	<!-- 列表 -->
+	<view class="pro-list">
+		<view class="pro-li" wx:for="{{5}}" wx:key="{{index}}">
+			<view class="pro-pic">
+				<image class="pro-img" mode="scaleToFill" src="../../../image/ye/bg4.jpg"></image>
+			</view>
+			<view class="pro-text">
+				<view class="pro-title">
+					泰国波浪平面枕
+				</view>
+				<view class="pro-title">
+					泰国波浪平面枕
+				</view>
+				<view class="pro-price">
+					￥228.0
+				</view>
+			</view>
+			
+		</view>
+	</view>
+</view>
