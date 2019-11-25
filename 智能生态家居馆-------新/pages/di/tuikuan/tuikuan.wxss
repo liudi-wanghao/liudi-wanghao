@@ -1,0 +1,126 @@
+/* pages/di/tuikuan/tuikuan.wxss */
+@import "/font/iconfont.wxss";
+
+.wrap_tui {
+	width: 100vw;
+	display: flex;
+}
+
+.wrap_box {
+	display: flex;
+	width: 90vw;
+
+	margin: 0 auto;
+	flex-direction: column;
+
+}
+
+.wrap_w_box {
+	height: 500rpx;
+	width: 95vw;
+	margin: 0 auto;
+	border-radius: 20rpx;
+	background: #EEEEEE;
+}
+
+.wrap_tui_one {
+	height: 80rpx;
+	display: flex;
+	align-items: center;
+	margin: 30rpx 0 0 0;
+}
+
+.wrap_tui_one image {
+	width: 38rpx;
+	height: 38rpx;
+}
+
+.wrap_tui_one icon {
+	font-size: 30rpx;
+	margin: 0 0 0 20rpx;
+	display: flex;
+	align-items: center;
+}
+
+.wrap_tui_one text {
+	font-size: 26rpx;
+	margin: 0 0 0 10rpx;
+}
+
+.wrap-tui_two {
+	width: 90vw;
+	margin: 20rpx 0 0 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrap-tui_two image {
+	width: 200rpx;
+	height: 200rpx;
+}
+
+.wrap_tui_one_right {
+	width: 60vw;
+	height: 200rpx;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrap_tui_one_right text {
+	font-size: 30rpx;
+	color: rgb(67, 69, 69);
+}
+
+.wrap_tui_one_right text:nth-child(2) {
+	margin: 20rpx 0 0 0;
+}
+
+.wrap_tui_bottom {
+	display: flex;
+	justify-content: space-between;
+	margin: 20rpx 0 0 0;
+	height: 60rpx;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+}
+
+.wrap_tui_bottom_left {
+	display: flex;
+	align-items: center;
+	height: 60rpx;
+}
+
+.wrap_tui_bottom_left text {
+	font-size: 30rpx;
+	color: rgb(178, 177, 177);
+	margin: 0 0 0 20rpx;
+}
+
+.wrap_tui_bottom_left icon {
+	display: flex;
+	width: 38rpx;
+	height: 38rpx;
+}
+
+.wrap_tui_bottom_right {
+	font-size: 30rpx;
+	color: rgb(58, 58, 58);
+}
+
+.wrap_tui_bottom_bottom {
+	width: 144rpx;
+	height: 55rpx;
+	border: 1px solid red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 26rpx;
+	color: #da2015;
+	border-radius: 30rpx;
+}
+
+.wrap_tui_no {
+	margin: 20rpx 0 0 0;
+	display: flex;
+	justify-content: space-between;
+}

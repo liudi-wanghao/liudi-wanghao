@@ -1,0 +1,32 @@
+<!--pages/di/tuikuan/tuikuan.wxml-->
+<view class="wrap_tui">
+	<view class="wrap_w_box">
+		<view class="wrap_box">
+			<view class="wrap_tui_one">
+				<image src="/image/ye/icon.png"></image>
+				<!-- <icon class="iconfont icon-dingdan"></icon> -->
+				<text>neodpillo海外旗舰店</text>
+				<icon class="iconfont icon-icon"></icon>
+			</view>
+			<view class="wrap-tui_two">
+				<image src="/image/toolbar/home@selected.png"></image>
+				<view class="wrap_tui_one_right">
+					<text>NeoDPillo印尼邓禄普官方正品原装进口天然乳胶枕头波浪颈椎枕...</text>
+					<text>共1件商品</text>
+				</view>
+			</view>
+			<view class="wrap_tui_bottom">
+				<view class="wrap_tui_bottom_left">
+					<icon class="iconfont icon-dingdan"></icon>
+					<text>仅退款，退款成功</text>
+				</view>
+				<text class="wrap_tui_bottom_right">退款金额￥299.00</text>
+			</view>
+			<view class="wrap_tui_no">
+				<view></view>
+				<text class="wrap_tui_bottom_bottom">查看详情</text>
+			</view>
+			
+		</view>
+	</view>
+</view>

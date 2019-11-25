@@ -1,0 +1,41 @@
+/* pages/di/shop/shop.wxss */
+@import "/font/iconfont.wxss";
+
+.shop_wrap {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.shop_wrap image {
+  width: 284rpx;
+  height: 211rpx;
+  margin: 0 0 0 30%;
+  border: 2px solid #fff;
+}
+
+.shop_wrap text {
+  display: flex;
+  justify-content: center;
+}
+
+.shop_w_o {
+  font-size: 40rpx;
+  margin: 50rpx 0 0 0;
+  color: rgb(154, 154, 154);
+}
+
+.shop_vi {
+  width: 202rpx;
+  height: 78rpx;
+  border-radius: 14rpx;
+  background: #27bc58;
+  font-size: 26rpx;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50rpx 0 0 36%;
+}

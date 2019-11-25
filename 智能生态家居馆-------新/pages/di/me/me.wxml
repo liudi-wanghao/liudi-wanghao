@@ -1,0 +1,86 @@
+<view class="wrap_me">
+	<!--上 大盒子-->
+	<view class="wrap_box">
+		<view class="wrap_b_o">
+			<icon class="iconfont icon-shezhicopy"></icon>
+			<icon class="iconfont icon-xinxi"></icon>
+		</view>
+		<image src="/image/ye/2.jpg"></image>
+		<text>JZR9700</text>
+	</view>
+</view>
+<view class="wrap_bottom">
+	<!--下 大盒子-->
+	<view class="wrap_bottom_top">
+		<view class="bottom_left">
+			<icon class="iconfont icon-dingdan"></icon>
+			<text>我的订单</text>
+		</view>
+		<view class="bottom_right">
+			<text>查看全部订单</text>
+			<icon class="iconfont icon-shezhicopy"></icon>
+		</view>
+	</view>
+	<view class="wrap_bottom_zhong">
+		<view class="wrap_bottom_ye">
+			<icon class="iconfont icon-daifukuan"></icon>
+			<text>待付款</text>
+		</view><!-- 待付款  待分享  待发货 。待发货。待评价-->
+		<view class="wrap_bottom_ye">
+			<icon class="iconfont icon-fenxiang"></icon>
+			<text>待分享</text>
+		</view>
+		<view class="wrap_bottom_ye">
+			<icon class="iconfont icon-daifahuo"></icon>
+			<text>待发货</text>
+		</view>
+
+		<view class="wrap_bottom_ye">
+			<icon class="iconfont icon-daifahuo"></icon>
+			<text>待发货</text>
+		</view>
+		<view class="wrap_bottom_ye">
+			<icon class="iconfont icon-daipingjia"></icon>
+			<text>待评价</text>
+		</view>
+	</view>
+	<!--结束-->
+	<view class="wrap_bottom_bot">
+		<!--下 优惠券 退款售后-->
+		<view class="wrap_bottom_left">
+			<icon class="iconfont icon-youhuiquan1"></icon>
+			<text>优惠券</text>
+		</view>
+		<view>
+			<icon class="iconfont icon-icon"></icon>
+		</view>
+	</view>
+	<view class="wrap_bottom_bot">
+		<view class="wrap_bottom_left">
+			<icon class="iconfont icon-shoucang"></icon>
+			<text>商品收藏</text>
+		</view>
+		<view>
+			<icon class="iconfont icon-icon"></icon>
+		</view>
+	</view>
+	<view class="wrap_bottom_bot">
+		<view class="wrap_bottom_left">
+			<icon class="iconfont icon-lishiliulan"></icon>
+			<text>历史浏览</text>
+		</view>
+		<view>
+			<icon class="iconfont icon-icon"></icon>
+		</view>
+	</view>
+	<view class="wrap_bottom_bot">
+		<view class="wrap_bottom_left">
+			<icon class="iconfont icon-daipingjia"></icon>
+			<text>退款售后</text>
+		</view>
+		<view>
+			<icon class="iconfont icon-icon"></icon>
+		</view>
+	</view>
+</view>
+<!--下 优惠券 退款售后-->

@@ -1,0 +1,8 @@
+<!--pages/di/shop/shop.wxml-->
+<view class="shop_wrap">
+  <image src="/image/ye/elephant.png"></image>
+  <text class="shop_w_o">购物车是空的</text>
+  <view class="shop_vi">
+    去逛逛
+  </view>
+</view>
