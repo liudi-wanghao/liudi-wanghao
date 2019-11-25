@@ -1,1 +1,60 @@
 /* pages/di/collection/collection.wxss */
+.coll_wrap {
+	width: 100vw;
+	display: flex;
+}
+
+.coll_wrap_box {
+	width: 90vw;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	border:1px solid rgb(243, 243, 243);
+}
+
+.coll_wrap_box image {
+	width: 200rpx;
+	height: 192rpx;
+	margin: 20rpx 0 0 14rpx;
+}
+
+.coll_wrap_box_right {
+	width: 60vw;
+	height: 260rpx;
+	display: flex;
+	flex-direction: column;
+	margin: 20rpx 0 0 0;
+}
+
+.coll_wrap_right_top {
+	display: flex;
+	flex-direction: column;
+}
+
+.coll_wrap_right_top text:nth-child(1) {
+	font-size: 26rpx;
+	color: #383a3a;
+}
+
+.coll_wrap_right_top text:nth-child(2) {
+	font-size: 18rpx;
+	color: #ff3f3f;
+	margin: 14rpx 0 0 0;
+}
+
+.coll_wrap_right_bottom {
+	display: flex;
+	justify-content: space-between;
+	margin: 32rpx 0 0 0;
+}
+
+.coll_wrap_right_bottom text:nth-child(1) {
+	font-size: 36rpx;
+	color: #ff3f3f;
+}
+
+.coll_wrap_right_bottom text:nth-child(2) {
+	font-size: 22rpx;
+	color: #b9b9b9;
+	margin: 10rpx 20rpx 0 0;
+}

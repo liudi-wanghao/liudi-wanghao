@@ -117,3 +117,6 @@
 	color: rgb(136, 136, 136);
 	align-items: center;
 }
+.omg{
+  color: red;
+}

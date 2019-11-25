@@ -96,10 +96,11 @@
 	margin: 0 0 0 20rpx;
 }
 
-.wrap_tui_bottom_left icon {
+.wrap_tui_bottom_left image {
 	display: flex;
 	width: 38rpx;
 	height: 38rpx;
+	border-radius: 50%;
 }
 
 .wrap_tui_bottom_right {
