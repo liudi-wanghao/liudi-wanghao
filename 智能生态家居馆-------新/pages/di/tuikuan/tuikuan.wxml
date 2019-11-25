@@ -17,7 +17,7 @@
 			</view>
 			<view class="wrap_tui_bottom">
 				<view class="wrap_tui_bottom_left">
-					<icon class="iconfont icon-dingdan"></icon>
+					<image src="/image/ye/01_03.png"></image>
 					<text>仅退款，退款成功</text>
 				</view>
 				<text class="wrap_tui_bottom_right">退款金额￥299.00</text>

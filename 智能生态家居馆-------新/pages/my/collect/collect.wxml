@@ -1,7 +1,7 @@
-<!--pages/di/collection/collection.wxml-->
+<!--pages/my/collect/collect.wxml收藏-->
 <view class="coll_wrap">
-	<view class="coll_wrap_box">
-		<image src="/image/ye/1.png"></image>
+	<view class="coll_wrap_box" wx:for="{{4}}" :key="{{index}}">
+		<image lazy-load="{{true}}" src="../../../image/ye/2.png"></image>
 		<view class="coll_wrap_box_right">
 			<view class="coll_wrap_right_top">
 				<text>NeoDPillo印尼邓禄普官方正品原装进口天然乳胶枕头波浪颈椎枕</text>

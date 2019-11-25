@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "more":"../../../component/more/more"
+  },
+  "navigationBarTitleText":"领卷中心"
+}

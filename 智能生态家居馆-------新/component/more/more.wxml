@@ -1,0 +1,6 @@
+<!--component/more/more.wxml-->
+<view class="more">
+		<text>没有更多了</text>
+    <!-- <view class="image"></view> -->
+    <image src="../../image/ye/empty.gif"></image>
+	</view>

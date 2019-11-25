@@ -78,6 +78,35 @@
 					"id": -1,
 					"name": "pages/di/collection/collection",
 					"pathName": "pages/di/collection/collection",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/my/collect/collect",
+					"pathName": "pages/my/collect/collect",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/my/history/history",
+					"pathName": "pages/my/history/history",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/my/discounts/discounts",
+					"pathName": "pages/my/discounts/discounts",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/di/browse/browse",
+					"pathName": "pages/di/browse/browse",
+					"query": "",
 					"scene": null
 				}
 			]

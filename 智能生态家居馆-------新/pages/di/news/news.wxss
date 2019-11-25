@@ -1,1 +1,53 @@
 /* pages/di/news/news.wxss */
+#product{
+	width:100vw;
+	height:100vh;
+}
+#product .product-img{
+	width:100%;
+	height:340rpx;
+}
+.pro-list{
+	box-sizing: border-box;
+	padding:0 23rpx;
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width:100%;
+	margin-top:42rpx;
+}
+.pro-li{
+	box-sizing: border-box;
+	width:340rpx;
+	height:520rpx;
+	margin-bottom: 27rpx;
+	border:1px solid #f9f9f9;
+}
+.pro-pic{
+	width:100%;
+	height:300rpx;
+}
+.pro-pic .pro-img{
+	width:100%;
+	height:100%;
+}
+.pro-text{
+	box-sizing: border-box;
+	padding-left:10rpx;
+	width:100%;
+	margin-top:60rpx;
+}
+.pro-text .pro-title{
+	font-size:34rpx;
+	color: #333;
+}
+.pro-text .pro-title:nth-child(2){
+	margin-top:10rpx;
+	font-size:24rpx;
+	color: #999;
+}
+.pro-text .pro-price{
+	margin-top:20rpx;
+	font-size:32rpx;
+	color: #df0000;
+}

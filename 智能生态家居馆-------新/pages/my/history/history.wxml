@@ -1,0 +1,24 @@
+<!--pages/my/history/history.wxml浏览历史-->
+
+<view class="history_wrap">
+	<view class="his_wrap_box" wx:for="{{4}}" wx:key="{{index}}">
+		<image lazy-load="{{true}}" src="../../../image/ye/2.png"></image>
+		<view class="his_wrap_box_right">
+			<view class="his_wrap_right_top">
+				<text>NeoDPillo印尼邓禄普恶女额絮儿特备违反唱歌女官方正品原装进口天然乳胶枕头波浪颈椎枕</text>
+				<!-- <text>比收藏时降价20.00元</text> -->
+			</view>
+			<view class="his_wrap_right_bottom">
+				<view class="his_buy">
+					<view class="his_text"><text>￥</text>299.00</view>
+					<text>已有10222人购买</text>
+				</view>
+				<view class="city">
+					上海
+				</view>
+			</view>
+		</view>
+	</view>
+	<!-- 组件 没有更多 -->
+	<more></more>
+</view>
