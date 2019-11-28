@@ -27,5 +27,10 @@ Page({
     wx.navigateTo({
       url: "/pages/di/tuikuan/tuikuan"
     })
+  },
+  meCall() {
+    wx.navigateTo({
+      url: '/pages/my/orderform/orderform'
+    })
   }
 })

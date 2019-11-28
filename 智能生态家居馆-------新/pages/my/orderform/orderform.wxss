@@ -1,0 +1,163 @@
+/* pages/my/orderform/orderform.wxss */
+/* pages/my/orderform/orderform.wxss */
+#order{
+	box-sizing: border-box;
+	padding-top:3rpx;
+	width:100vw;
+	height:100vh;
+}
+.order-top{
+	width:100vw;
+	height:100%;
+	background-color:#f2f2f2;
+}
+.order-list{
+	width:100%;
+}
+.order-state{
+	box-sizing: border-box;
+	padding:0 18rpx;
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	width:100%;
+	height:80rpx;
+	background-color:#fff;
+}
+.order-state text:nth-child(1){
+	color:#8d8d8d;
+	font-size:24rpx;
+}
+.order-state text:nth-child(2){
+	color:#24ab63;
+	font-size:26rpx;
+}
+.all-content{
+	width:100%;
+	height:382rpx;
+	margin-bottom:30rpx;
+}
+.order-object{
+	box-sizing: border-box;
+	padding:0 18rpx;
+	display: flex;
+	align-items:center;
+	width:100%;
+	height:205rpx;
+	background-color:#f7f7f7;
+	
+}
+.object-pic{
+	width:160rpx;
+	height:160rpx;
+}
+.object-pic image{
+	width:100%;
+	height:100%;
+}
+.object-title{
+	display: flex;
+	flex-direction: column;
+	width:377rpx;
+	height:160rpx;
+	margin-left:40rpx;
+}
+.object-title text:nth-child(1){
+	color:#383a3a;
+	font-size:26rpx;
+}
+.object-title text:nth-child(2){
+	margin-top:30rpx;
+	color:#bebebe;
+	font-size:24rpx;
+}
+.object-price{
+	display: flex;
+	flex-direction: column;
+	width:118rpx;
+	height:160rpx;
+	margin-top: -6px;
+}
+.object-price .price{
+	width:100%;
+	margin-left: 24rpx;
+}
+.object-price .price text{
+	font-size:24rpx;
+	color:#dc3025;
+}
+
+.object-price .price text:nth-child(2){
+	font-size:32rpx;
+}
+.object-price text{
+	color:#bebebe;
+	font-size:24rpx;
+	text-align:right;
+	margin-top:9px;
+}
+.object-price text:nth-child(3){
+	color:#ff3f3f;
+	font-size:26rpx;
+	margin-top:-26rpx;
+} 
+
+
+.all-goods{
+	box-sizing: border-box;
+	padding-rignt:20rpx;
+	display:flex;
+	justify-content: flex-end;
+	align-items: center;
+	width:100%;
+	height:80rpx;
+	font-size:24rpx;
+	color:#8b8b8b;
+	background-color:#fff;
+}
+.all-goods .all-price{
+	color:#dc3025;
+	font-size: 24rpx;
+	margin-left:-10rpx;
+}
+.all-goods .all-price text:nth-child(2){
+	color:#dc3025;
+	font-size:30rpx;
+}
+.all-goods .all-freight{
+	margin-left:30rpx;
+}
+.cancel-pay{
+	box-sizing: border-box;
+	padding:0 18rpx;
+	display:flex;
+	justify-content: flex-end;
+	align-items:center;
+	width:100%;
+	height:97rpx;
+	margin-top: 1px;
+	background-color:#fff;
+}
+.cancel-pay .text{
+	width:144rpx;
+	height:55rpx;
+	font-size:26rpx;
+	color:#ccc;
+	text-align: center;
+	line-height: 55rpx;
+	border:1px solid #aaa8a8;
+	border-radius:28rpx;
+}
+.cancel-pay .text:nth-child(2).green{
+	color:#1ca95e;
+	border:1px solid #1ca95e;
+	background-color:#fff;
+	 
+}
+.cancel-pay .text:nth-child(2){
+	color:#fff;
+	font-weight: 700;
+	background-color:#dc3025;
+	border:none;
+	margin-left:11rpx;
+}

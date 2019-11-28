@@ -26,7 +26,7 @@
 				</view>
 			</view>
 		</view> -->
-
+		
 		<view class="shop_list" wx:for="{{arr}}" wx:key="index">
 			<!-- 状态 -->
 			<view class="shop_start" bindtap="onState" data-index="{{index}}">
@@ -35,13 +35,13 @@
 			</view>
 			<!-- 图片 -->
 			<view class="shop_pic">
-				<image mode="aspectFit" src="{{item.pci}}"></image>
+				 <image mode="aspectFit" src="{{item.pci}}"></image>
 			</view>
 			<!-- 名字 -->
 			<view class="shop_title">
-				<text>{{item.title}}</text>
-				<text>{{item.color}}</text>
-				<view class="text"><text>￥</text>{{item.price}}</view>
+					<text>{{item.title}}</text>
+					<text>{{item.color}}</text>
+					<view class="text"><text>￥</text>{{item.price}}</view>
 			</view>
 			<!-- 删除 -->
 			<view class="shop_rome" wx:if="{{false}}">
@@ -50,11 +50,11 @@
 			</view>
 			<view class="shop_pice">
 				<view class="count" catchtap="onReduce" data-index="{{index}}"> - </view>
-
+				
 				<view class="shop_weui">{{item.num}} </view>
 				<view class="count" catchtap="onAdd" data-index="{{index}}"> + </view>
 			</view>
-
+			
 		</view>
 	</view>
 	<!-- 计算结果 -->
@@ -72,8 +72,8 @@
 			去结算
 		</view>
 	</view>
-
-
+	
+	
 </view>
 
 
@@ -87,9 +87,9 @@
 
 <!-- 购物车是空的 -->
 <view class="shop_wrap" wx:if="{{false}}">
-	<image src="/image/ye/elephant.png"></image>
-	<text class="shop_w_o">购物车是空的</text>
-	<view class="shop_vi">
-		去逛逛
-	</view>
+  <image src="/image/ye/elephant.png"></image>
+  <text class="shop_w_o">购物车是空的</text>
+  <view class="shop_vi">
+    去逛逛
+  </view>	
 </view>

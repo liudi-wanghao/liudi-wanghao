@@ -12,7 +12,7 @@
 <view class="wrap_bottom">
 	<!--下 大盒子-->
 	<view class="wrap_bottom_top">
-		<view class="bottom_left">
+		<view class="bottom_left" bindtap="meCall">
 			<icon class="iconfont icon-dingdan"></icon>
 			<text>我的订单</text>
 		</view>

@@ -33,8 +33,8 @@ Page({
 				price: "51.00"
 			}
 		],
-		TotalPrice: 0, //总价格
-		AllState: true //全选
+		TotalPrice:0,//总价格
+		AllState:true//全选
 	},
 
 	/**
@@ -45,46 +45,47 @@ Page({
 	},
 	//选中的状态
 	onState(e) {
+		
 		let num = e.currentTarget.dataset.index
 		this.data.arr.forEach((item, index) => {
 			if (index == num) {
 				this.data.arr[index].statr = !this.data.arr[index].statr
+				// arr.push(item)
 				this.setData({
 					arr: this.data.arr
 				})
 			}
-
-			if (!item.statr) {
+			if(!item.statr){
 				this.setData({
-					AllState: !this.data.AllState
+					AllState:!this.data.AllState
 				})
 			}
 		})
 		//检测状态
-		this.data.arr.forEach((item) => {
-			console.log(this.data.arr)
-			if (item.statr === false) {
-				this.setData({
-					AllState: false
-				})
-			} else {
-				this.setData({
-					AllState: true
-				})
-			}
+		let state = this.data.arr.filter(item=>{
+			return !item.statr
 		})
-
-
+		if(this.data.arr.length==state.length){
+			this.setData({
+				AllState:false
+			})
+		}else{
+			this.setData({
+				AllState:true
+			})
+		}
+		
+		
 		this.totalPrice()
 	},
 	//加减按钮
-	onReduce(e) {
+	onReduce(e){
 		let num = e.currentTarget.dataset.index
 		this.data.arr.forEach((item, index) => {
 			if (index == num) {
 				let arr = this.data.arr;
 				arr[index].num--;
-				if (arr[index].num-- <= 1) {
+				if(arr[index].num-- <= 1){
 					arr[index].num = 1
 				}
 				this.setData({
@@ -94,7 +95,7 @@ Page({
 		})
 		this.totalPrice()
 	},
-	onAdd(e) {
+	onAdd(e){
 		let num = e.currentTarget.dataset.index
 		this.data.arr.forEach((item, index) => {
 			if (index == num) {
@@ -103,45 +104,44 @@ Page({
 				this.setData({
 					arr
 				})
-			}
+		 	}
 		})
 		this.totalPrice()
 	},
 	//价格
-	totalPrice() {
-		let priceNum = 0
-		this.data.arr.forEach(item => {
-			if (!item.statr) {
-				priceNum += item.num * item.price
+	totalPrice(){
+		let priceNum=0
+		this.data.arr.forEach(item=>{
+			if(!item.statr){
+				priceNum += item.num*item.price
 			}
 		})
 		this.setData({
-			TotalPrice: priceNum
+			TotalPrice:priceNum
 		})
 	},
 	//全选
-	onAllState() {
-		if (this.data.AllState) {
+	onAllState(){
+		if(this.data.AllState){
 			console.log(2)
-			this.data.arr.forEach(item => {
-				item.statr = false
-
+			this.data.arr.forEach(item=>{
+				 item.statr=false
 			})
 			this.setData({
-				arr: this.data.arr,
-				AllState: false
+				arr:this.data.arr,
+				AllState:false
 			})
-
-		} else {
-			this.data.arr.forEach(item => {
-				item.statr = true
-
+			
+		}else{
+			this.data.arr.forEach(item=>{
+				 item.statr=true
+				
 			})
 			this.setData({
-				arr: this.data.arr,
-				AllState: true
+				arr:this.data.arr,
+				AllState:true
 			})
-
+			
 		}
 		this.totalPrice()
 	}

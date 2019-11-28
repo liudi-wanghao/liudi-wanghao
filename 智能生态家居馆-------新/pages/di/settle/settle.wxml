@@ -2,7 +2,7 @@
 <view class="settle_wrap">
 	<view class="settle_left">
 		<icon class="iconfont icon-dingweiweizhi"></icon>
-		<text>请选择收获地址</text>
+		<text bindtap="take">请选择收获地址</text>
 	</view>
 	<view class="settle_right">
 		<icon class="iconfont icon-shoucang"></icon>
@@ -12,6 +12,72 @@
 	<image src="/image/ye/Colorbar.png"></image>
 </view>
 <view class="settle_three">
-	<view class="settle_three_one"></view>
-	<view></view>
+	<view class="settle_three_center">
+		<view class="settle_three_one">
+			<image src="/image/ye/pillow_1_1.gif"></image>
+			<view class="settle_three_two">
+				<text>狼牙枕</text>
+				<text>米色</text>
+			</view>
+		</view>
+
+
+		<view class="settle_three_three">
+			<text>共1件</text>
+			<text>￥238.00</text>
+		</view>
+	</view>
+
+</view>
+<view class="settle_four">
+	<view class="settle_four_center">
+		<view class="settle_cl">
+			<text>优惠</text>
+			<text>0张可用></text>
+		</view>
+		<view class="settle_cl">
+			<text>商品总额</text>
+			<text>￥238.00</text>
+		</view>
+		<view class="settle_cl">
+			<text>运费</text>
+			<text>￥0.00</text>
+		</view>
+		<view class="settle_clc">
+			<text>留言</text>
+			<text>给卖家留言</text>
+		</view>
+	</view>
+</view>
+
+<view class="settle_five">
+	<view class="settle_five_au">
+		<view class="settle_five_y">
+			<view class="settle_five_y_one">
+				<icon class="iconfont icon-dingweiweizhi"></icon>
+				<text>微信支付</text>
+			</view>
+			<view>
+				<icon class="iconfont icon-dingweiweizhi"></icon>
+			</view>
+		</view>
+		<view class="settle_five_y">
+			<view class="settle_five_y_one">
+				<icon class="iconfont icon-dingweiweizhi"></icon>
+				<text>找微信好友支付</text>
+			</view>
+		</view>
+	</view>
+</view>
+
+<view class="settle_sex">
+	<view class="settle_sex_center">
+		<view class="settle_sex_left">
+			<text>应付款</text>
+			<text>￥238.00</text>
+		</view>
+		<view class="settle_sex_right">
+			<text>提交订单</text>
+		</view>
+	</view>
 </view>

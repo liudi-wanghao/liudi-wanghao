@@ -129,6 +129,34 @@
 					"pathName": "pages/di/settle/settle",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/di/take/take",
+					"pathName": "pages/di/take/take",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/di/news/news",
+					"pathName": "pages/di/news/news",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/di/application/application",
+					"pathName": "pages/di/application/application",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/my/orderform/orderform",
+					"pathName": "pages/my/orderform/orderform",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

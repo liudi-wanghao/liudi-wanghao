@@ -1,0 +1,97 @@
+
+<!--pages/my/orderform/orderform.wxml-->
+
+<view id="order">
+	<view class="order-top">
+		<view class="order-list">
+			<view class="order-state">
+				<text>订单编号：54998464514651465</text>
+				<text>交易完成</text>
+			</view>
+			<view class="all-content" wx:for="{{1}}" wx:key="inndexx">
+				<!-- 商品 -->
+				<view class="order-object">
+					<view class="object-pic">
+						<image src="../../../image/ye/3.png"></image>
+					</view>
+					<view class="object-title">
+						<text>订单编号：人居OA额回复你无车位费不考虑</text>
+						<text>名字</text>
+					</view>
+					<view class="object-price">
+						<view class="price">
+							<text>￥</text><text>52.0</text>
+						</view>
+						<text>
+							×1
+						</text>
+						<text  wx:if="{{true}}">
+							待支付
+						</text>
+						
+					</view>
+				</view>
+				<!-- 共计商品 -->
+				<view class="all-goods">
+					<view class="all">
+						共计1件商品 合计：
+					</view>
+					<view class="all-price">
+						<text>￥</text>
+						<text>42.20</text>
+					</view>
+					<view class="all-freight">
+						（含运费￥0.00）
+					</view>
+				</view>
+				<view class="cancel-pay">
+					<view class="text">删除</view>
+					<view class="text {{true?'green':''}}">评价</view>
+				</view>
+			</view>
+			
+			<!--  -->
+			<view class="all-content" wx:for="{{1}}" wx:key="inndexx">
+				<!-- 商品 -->
+				<view class="order-object">
+					<view class="object-pic">
+						<image src="../../../image/ye/3.png"></image>
+					</view>
+					<view class="object-title">
+						<text>订单编号：人居OA额回复你无车位费不考虑</text>
+						<text>名字</text>
+					</view>
+					<view class="object-price">
+						<view class="price">
+							<text>￥</text><text>52.0</text>
+						</view>
+						<text>
+							×1
+						</text>
+						<text>
+							待支付
+						</text>
+						
+					</view>
+				</view>
+				<!-- 共计商品 -->
+				<view class="all-goods">
+					<view class="all">
+						共计1件商品 合计：
+					</view>
+					<view class="all-price">
+						<text>￥</text>
+						<text>42.20</text>
+					</view>
+					<view class="all-freight">
+						（含运费￥0.00）
+					</view>
+				</view>
+				<view class="cancel-pay">
+					<view class="text">取消订单</view>
+					<view class="text">去支付</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

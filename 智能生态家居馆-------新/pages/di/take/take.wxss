@@ -1,0 +1,119 @@
+/* pages/di/take/take.wxss */
+@import "/font/iconfont.wxss";
+
+.take_wrap {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+}
+
+.take_wrap_center {
+	width: 90vw;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.take_one {
+	display: flex;
+	flex-direction: column;
+}
+
+.take_one_one {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.take_one_two {
+	display: flex;
+	flex-direction: column;
+}
+
+.take_text_one text {
+	font-size: 35rpx;
+	color: rgb(77, 77, 77);
+}
+
+.take_one_three {
+	height: 50rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.take_one_three text {
+	font-size: 35rpx;
+	color: rgb(72, 72, 72);
+}
+
+.take_one_three icon {
+	display: flex;
+	font-size: 35rpx;
+}
+
+.take_one_four {
+	display: flex;
+	height: 50rpx;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50rpx 0 0 0;
+}
+
+.take_one_four_one {
+	display: flex;
+	height: 50rpx;
+	align-items: center;
+}
+
+.take_one_four_one text {
+	color: red;
+	font-size: 30rpx;
+}
+
+.take_one_four_one icon {
+	font-size: 30rpx;
+	display: flex;
+	height: 50rpx;
+	align-items: center;
+}
+
+.take_one_four_two {
+	display: flex;
+	height: 50rpx;
+	align-items: center;
+}
+
+.take_one_four_two text {
+	font-size: 30rpx;
+	color: rgb(180, 180, 180);
+}
+.take_one_four_two text :nth-child(2){
+	margin: 0 20rpx 0 0;
+}
+.take_fix {
+	width: 90vw;
+	height: 92rpx;
+	display: flex;
+	background: rgb(223, 22, 21);
+	border-radius: 10rpx;
+	align-items: center;
+	justify-content: center;
+	margin: 50rpx 0 0 0;
+}
+
+.take_fix_one {
+	width: 30rpx;
+	height: 30rpx;
+	display: flex;
+	align-items: center;
+	background: #fff;
+	justify-content: center;
+	color: rgb(223, 22, 21);
+	font-size: 30rpx;
+}
+
+.take_fix text {
+	font-size: 30rpx;
+	color: rgb(251, 230, 230);
+	margin: 0 0 0 30rpx;
+}
