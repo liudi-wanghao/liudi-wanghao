@@ -108,6 +108,27 @@
 					"pathName": "pages/di/browse/browse",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/di/details/details",
+					"pathName": "pages/di/details/details",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/di/home/home",
+					"pathName": "pages/di/home/home",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/di/settle/settle",
+					"pathName": "pages/di/settle/settle",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

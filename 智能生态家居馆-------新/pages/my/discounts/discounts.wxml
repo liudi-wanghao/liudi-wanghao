@@ -1,89 +1,89 @@
 <!--pages/my/discounts/discounts.wxml优惠券-->
 <view id="discounts">
-	<!-- 标题 -->
-	<view class="dis-h1">
-		可用红包<text>5</text>个
-	</view>
-	<!-- 标题结束 -->
-	<!-- 领劵 -->
-	<view class="gift-coupon">
-		<!-- 5元优惠卷 -->
-		<view class="gift-list">
-			<!-- 领劵 左-->
-			<view class="gift-li"  style="background-image: url(/image/ye/04_01.png)">
-				<view class="gift-conent">
-					<text>￥</text>
-					<view class="price">5</view>
-					<text>购物券</text>
-				</view>
-				<view class="gift-bottom">
-					收藏+关注
-				</view>
-			</view>
-			<!-- 领劵 右-->
-			<view class="gift-right"  style="background-image: url(/image/ye/02_02.png)">
-				<text>立即使用</text>
-			</view>
-		</view>
-		<!-- 5元优惠卷结束 -->
-		<view class="gift-list">
-			<!-- 领劵 左-->
-			<view class="gift-li" style="background-image: url(/image/ye/02_01.png)">
-				<view class="gift-top">
-					满399立减
-				</view>
-				<view class="gift-conent">
-					<text>￥</text>
-					<view class="price">20</view>
-					<text>购物券</text>
-				</view>
-			</view>
-			<!-- 领劵 右-->
-			<view class="gift-right"  style="background-image: url(/image/ye/02_02.png)">
-				<text>立即使用</text>
-			</view>
-		</view>
-		
-		<view class="gift-list">
-			<!-- 领劵 左-->
-			<view class="gift-li" style="background-image: url(/image/ye/03_01.png)">
-				<view class="gift-top">
-					满399立减
-				</view>
-				<view class="gift-conent">
-					<text>￥</text>
-					<view class="price">50</view>
-					<text>购物券</text>
-				</view>
-			</view>
-			<!-- 领劵 右-->
-			<view class="gift-right"  style="background-image: url(/image/ye/02_02.png)">
-				<text>立即使用</text>
-			</view>
-		</view>
-		
-		
-		<view class="gift-list">
-			<!-- 领劵 左-->
-			<view class="gift-li" style="background-image: url(/image/ye/02_01.png)">
-				<view class="gift-top">
-					满399立减
-				</view>
-				<view class="gift-conent">
-					<text>￥</text>
-					<view class="price">100</view>
-					<text>购物券</text>
-				</view>
-			</view>
-			<!-- 领劵 右-->
-			<view class="gift-right"  style="background: url(/image/ye/02_02.png) no-repeat">
-				<text>立即使用</text>
-			</view>
-		</view>
-	</view>
-	<!-- 领劵结束 -->
-	<!-- 没有更多 -->
-  <more></more>  
-	
-</view>
+  <!-- 标题 -->
+  <view class="dis-h1">
+    可用红包
+    <text>5</text>个
+  </view>
+  <!-- 标题结束 -->
+  <!-- 领劵 -->
+  <view class="gift-coupon">
+    <!-- 5元优惠卷 -->
+    <view class="gift-list">
+      <!-- 领劵 左-->
+      <view class="gift-li" style="background-image: url(/image/ye/04_01.png)">
+        <view class="gift-conent">
+          <text>￥</text>
+          <view class="price">5</view>
+          <text>购物券</text>
+        </view>
+        <view class="gift-bottom">
+          收藏+关注
+        </view>
+      </view>
+      <!-- 领劵 右-->
+      <view class="gift-right" style="background-image: url(/image/ye/02_02.png)">
+        <text>立即使用</text>
+      </view>
+    </view>
+    <!-- 5元优惠卷结束 -->
+    <view class="gift-list">
+      <!-- 领劵 左-->
+      <view class="gift-li" style="background-image: url(/image/ye/02_01.png)">
+        <view class="gift-top">
+          满399立减
+        </view>
+        <view class="gift-conent">
+          <text>￥</text>
+          <view class="price">20</view>
+          <text>购物券</text>
+        </view>
+      </view>
+      <!-- 领劵 右-->
+      <view class="gift-right" style="background-image: url(/image/ye/02_02.png)">
+        <text>立即使用</text>
+      </view>
+    </view>
 
+    <view class="gift-list">
+      <!-- 领劵 左-->
+      <view class="gift-li" style="background-image: url(/image/ye/03_01.png)">
+        <view class="gift-top">
+          满399立减
+        </view>
+        <view class="gift-conent">
+          <text>￥</text>
+          <view class="price">50</view>
+          <text>购物券</text>
+        </view>
+      </view>
+      <!-- 领劵 右-->
+      <view class="gift-right" style="background-image: url(/image/ye/02_02.png)">
+        <text>立即使用</text>
+      </view>
+    </view>
+
+
+    <view class="gift-list">
+      <!-- 领劵 左-->
+      <view class="gift-li" style="background-image: url(/image/ye/02_01.png)">
+        <view class="gift-top">
+          满399立减
+        </view>
+        <view class="gift-conent">
+          <text>￥</text>
+          <view class="price">100</view>
+          <text>购物券</text>
+        </view>
+      </view>
+      <!-- 领劵 右-->
+      <view class="gift-right" style="background: url(/image/ye/02_02.png) no-repeat">
+        <text>立即使用</text>
+      </view>
+    </view>
+  </view>
+  <!-- 领劵结束 -->
+  <!-- 没有更多 -->
+  <more></more>
+
+</view>

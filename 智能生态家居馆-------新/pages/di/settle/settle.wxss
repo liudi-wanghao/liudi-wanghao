@@ -1,0 +1,61 @@
+/* pages/di/settle/settle.wxss */
+@import "/font/iconfont.wxss";
+
+.settle_wrap {
+	width: 100vw;
+	display: flex;
+	height: 100rpx;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.settle_left {
+	width: 40vw;
+	height: 100rpx;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.settle_left icon {
+	font-size: 40rpx;
+	color: #248756;
+}
+
+.settle_left text {
+	font-size: 30rpx;
+	color: #333333;
+}
+.settle_right{
+	width: 10vw;
+	height: 100rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.settle_right icon {
+	font-size: 30rpx;
+	color: rgb(140, 140, 140);
+}
+.settle_two{
+	width: 100vw;
+	height: 10rpx;
+	display: flex;
+}
+.settle_two image{
+	width: 100vw;
+	height: 10rpx;
+}
+.settle_three{
+	width: 100vw;
+	height: 300rpx;
+	display: flex;
+	flex-direction: column;
+	background: #0077AA;
+	margin: 30rpx 0 0 0;
+}
+.settle_three_one {
+	height: 200rpx;
+	display: flex;
+	background: #55A532;
+}

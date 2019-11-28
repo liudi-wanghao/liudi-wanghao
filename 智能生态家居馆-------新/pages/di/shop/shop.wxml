@@ -1,8 +1,95 @@
 <!--pages/di/shop/shop.wxml-->
-<view class="shop_wrap">
-  <image src="/image/ye/elephant.png"></image>
-  <text class="shop_w_o">购物车是空的</text>
-  <view class="shop_vi">
-    去逛逛
-  </view>
+<!-- 有商品的？ -->
+<view id="shop">
+	<view class="shop_box">
+		<!-- <view class="shop_list">
+			<!-- 状态 
+			<view class="shop_start">
+				<icon class="iconfont icon-xuanzhong-copy acti" wx:if="{{false}}"></icon>
+				<icon class="iconfont icon-xuanzhongyuandian active"></icon>
+			</view>
+			<!-- 图片 
+			<view class="shop_pic">
+				 <image mode="aspectFit" src="../../../image/ye/bg2.jpg"></image>
+			</view>
+			<!-- 名字 
+			<view class="shop_title">
+					<text>狼牙枕</text>
+					<text>白色</text>
+					<view class="text"><text>￥</text>238.00</view>
+			</view>
+			<!-- 删除 
+			<view class="shop_rome">
+				<view class="shop_rome_icon">
+					<icon class="iconfont icon-shanchu"></icon>
+					<text>删除</text>
+				</view>
+			</view>
+		</view> -->
+
+		<view class="shop_list" wx:for="{{arr}}" wx:key="index">
+			<!-- 状态 -->
+			<view class="shop_start" bindtap="onState" data-index="{{index}}">
+				<icon class="iconfont icon-xuanzhongyuandian active" wx:if="{{item.statr}}"></icon>
+				<icon class="iconfont icon-xuanzhong-copy acti" wx:if="{{!item.statr}}"></icon>
+			</view>
+			<!-- 图片 -->
+			<view class="shop_pic">
+				<image mode="aspectFit" src="{{item.pci}}"></image>
+			</view>
+			<!-- 名字 -->
+			<view class="shop_title">
+				<text>{{item.title}}</text>
+				<text>{{item.color}}</text>
+				<view class="text"><text>￥</text>{{item.price}}</view>
+			</view>
+			<!-- 删除 -->
+			<view class="shop_rome" wx:if="{{false}}">
+				<icon class="iconfont icon-shanchu"></icon>
+				<text>删除</text>
+			</view>
+			<view class="shop_pice">
+				<view class="count" catchtap="onReduce" data-index="{{index}}"> - </view>
+
+				<view class="shop_weui">{{item.num}} </view>
+				<view class="count" catchtap="onAdd" data-index="{{index}}"> + </view>
+			</view>
+
+		</view>
+	</view>
+	<!-- 计算结果 -->
+	<view class="total_prices">
+		<view class="total_start" bindtap="onAllState">
+			<!-- 对 -->
+			<icon class="iconfont icon-xuanzhong-copy acti" wx:if="{{!AllState}}"></icon>
+			<icon class="iconfont icon-xuanzhongyuandian" wx:if="{{AllState}}"></icon>
+			<text>全选</text>
+		</view>
+		<view class="totla_price">
+			￥{{TotalPrice}}.00
+		</view>
+		<view class="totla_account">
+			去结算
+		</view>
+	</view>
+
+
+</view>
+
+
+
+
+
+
+
+
+
+
+<!-- 购物车是空的 -->
+<view class="shop_wrap" wx:if="{{false}}">
+	<image src="/image/ye/elephant.png"></image>
+	<text class="shop_w_o">购物车是空的</text>
+	<view class="shop_vi">
+		去逛逛
+	</view>
 </view>

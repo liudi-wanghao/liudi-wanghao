@@ -1,0 +1,17 @@
+<!--pages/di/settle/settle.wxml-->
+<view class="settle_wrap">
+	<view class="settle_left">
+		<icon class="iconfont icon-dingweiweizhi"></icon>
+		<text>请选择收获地址</text>
+	</view>
+	<view class="settle_right">
+		<icon class="iconfont icon-shoucang"></icon>
+	</view>
+</view>
+<view class="settle_two">
+	<image src="/image/ye/Colorbar.png"></image>
+</view>
+<view class="settle_three">
+	<view class="settle_three_one"></view>
+	<view></view>
+</view>

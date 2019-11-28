@@ -7,6 +7,8 @@
     "pages/di/shop/shop",
     "pages/di/me/me",
     "pages/di/tuikuan/tuikuan",
+    "pages/di/details/details",
+    "pages/di/settle/settle",
     "pages/di/collection/collection",
     "pages/di/browse/browse",
     "pages/my/discounts/discounts",
