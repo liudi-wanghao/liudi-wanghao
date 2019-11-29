@@ -44,11 +44,11 @@
 					<view class="text"><text>￥</text>{{item.price}}</view>
 			</view>
 			<!-- 删除 -->
-			<view class="shop_rome" wx:if="{{false}}">
+			<view class="shop_rome" wx:if="{{!item.statr}}" data-index="{{index}}" catchtap="onMove">
 				<icon class="iconfont icon-shanchu"></icon>
 				<text>删除</text>
-			</view>
-			<view class="shop_pice">
+			</view> 
+			<view class="shop_pice" wx:if="{{item.statr}}">
 				<view class="count" catchtap="onReduce" data-index="{{index}}"> - </view>
 				
 				<view class="shop_weui">{{item.num}} </view>

@@ -1,11 +1,11 @@
-// pages/my/collect/collect.js
+// pages/di/refundful/refundful.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-		arr:[]
+
   },
 
   /**
@@ -26,11 +26,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-	let arr = wx.getStorageSync("key")
-	//console.log(arr)
-	this.setData({
-		arr
-	})
+
   },
 
   /**

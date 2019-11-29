@@ -8,10 +8,10 @@
 	<view class="details_two">
 		<view class="details_two_one">
 			<text class="dettails_one_text">新款正品万泰林/煊赫乳胶枕/泰国正品波浪按摩枕60*40cm</text>
-			<view class="details_two_two">
+			<button class="details_two_two" open-type="share" bindtap="">
 				<icon class="iconfont icon-fenxiang"></icon>
 				<text>分享</text>
-			</view>
+			</button>
 		</view>
 		<text class="details_three">￥118-159</text>
 		<view class="details_four">
@@ -65,7 +65,14 @@
 				<text class="details_yu_text">差3人拼成</text>
 				<view class="details_yu_two">
 					<text>剩余</text>
-					<view></view>
+					<view>
+						{{time}}
+						<text>:</text>
+						{{minute}}
+						<text>:</text>
+						{{second}}
+						
+					</view>
 					<text>结束</text>
 				</view>
 			</view>

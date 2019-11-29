@@ -54,6 +54,7 @@
 }
 
 .details_two_one {
+	position:relative;
 	width: 95vw;
 	height: 70rpx;
 	margin: 30rpx auto;
@@ -69,6 +70,9 @@
 }
 
 .details_two_two {
+	position:absolute;
+	top:0;
+	right:-70px;
 	width: 10vw;
 	height: 70rpx;
 	display: flex;
@@ -251,6 +255,16 @@
 .details_yu_two {
 	display: flex;
 	margin: 20rpx 0 0 0;
+	
+}
+.details_yu_two view{
+	font-size: 20rpx;
+	color: #f40000;
+	
+}
+.details_yu_two view text{
+	font-size: 20rpx;
+	color: #000;
 	
 }
 .details_yu_two text{

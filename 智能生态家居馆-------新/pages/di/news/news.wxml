@@ -4,19 +4,23 @@
 	<image class="product-img" mode="aspectFill" src="../../../image/ye/222.jpg"></image>
 	<!-- 列表 -->
 	<view class="pro-list">
-		<view class="pro-li" wx:for="{{5}}" wx:key="{{index}}">
+		<view class="pro-li" wx:for="{{alldata}}" wx:key="index" data-id="{{item.id}}" bindtap="onDetails">
 			<view class="pro-pic">
-				<image class="pro-img" mode="scaleToFill" src="../../../image/ye/bg4.jpg"></image>
+				<image class="pro-img" mode="scaleToFill" src="{{item.pic}}"></image>
+			</view>
+			<!-- 定位 -->
+			<view class="pro-position" catchtap="onCollect" data-index="{{index}}">
+				<icon class="iconfont icon-shoucang1 {{item.state?'active':''}}"></icon> 
 			</view>
 			<view class="pro-text">
 				<view class="pro-title">
-					泰国波浪平面枕
+					{{item.name}}
 				</view>
 				<view class="pro-title">
-					泰国波浪平面枕
+					{{item.text}}
 				</view>
 				<view class="pro-price">
-					￥228.0
+					￥{{item.price}}
 				</view>
 			</view>
 			

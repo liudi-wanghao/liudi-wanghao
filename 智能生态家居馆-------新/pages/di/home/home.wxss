@@ -24,7 +24,6 @@
 	height: 800rpx;
 	display: flex;
 	position: relative;
-	background: red;
 }
 
 .home_two_img {
@@ -111,7 +110,6 @@
 	position: absolute;
 	bottom: 30rpx;
 	left: 0;
-	background: #0077AA;
 	display: flex;
 	flex-direction: column;
 }
@@ -171,13 +169,22 @@
 
 .order .line {
 	display: inline-block;
-	width: 100px;
+	width: 80px;
 	border-top: 1px solid #ccc;
 }
 
 .order .txt {
+	padding: 0 45rpx;
 	color: #686868;
+	font-size:30rpx;
 	vertical-align: middle;
+}
+.order .txt text{
+	width:32rpx;
+	height:31rpx;
+	color:#e80e07;
+	background-color:#fd8975;
+	
 }
 
 .home_wrap_four {

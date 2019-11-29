@@ -1,2 +1,47 @@
 <!--pages/di/application/application.wxml-->
-<text>pages/di/application/application.wxml</text>
+<view class="applic">
+	<view class='applic_one'>
+		<view class='applic_one_center'>
+			<image src="/image/ye/2.png" class="applic_img"></image>
+			<view class="applic_two">
+				<view class="applic_two_one">
+					<text>POKALEN乳胶枕头泰国原装进口颈椎天然橡胶枕</text>
+					<text>￥299</text>
+				</view>
+				<view class="applic_two_two">
+					<text>天然乳胶</text>
+					<text>x1</text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="applic_three">
+		<view class="applic_three_center">
+			<text>退款原因</text>
+			<text>请选择></text>
+		</view>
+	</view>
+	<view class="applic_four">
+		<view class="applic_four_center">
+			<view class="applic_four_one">
+				<text>退款金额 :</text>
+				<text>￥299.00</text>
+			</view>
+			<view class="applic_four_two">
+				<text>退款说明 :</text>
+				<text>选填</text>
+			</view>
+		</view>
+	</view>
+	<view class="applic_five">
+		<view class="applic_five_center">
+			<view class="applic_five_one">
+				<text>上传图片</text>
+				<!-- 这里有一个上传图片功能 -->
+			</view>
+		</view>
+	</view>
+</view>
+<view class="applic_fix">
+	<text>提交申请</text>
+</view>

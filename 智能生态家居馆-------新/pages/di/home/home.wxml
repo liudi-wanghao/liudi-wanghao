@@ -56,9 +56,7 @@
 			<view class="order">
 				<text class="line"></text>
 				<view class="txt">
-
-					剩余:
-
+					剩余 <text>{{time}}</text> : <text>{{minute}}</text> : <text>{{second}}</text> 结束
 				</view>
 				<text class="line"></text>
 			</view>
@@ -222,7 +220,14 @@
 	<view class="home_foote">
 		<text class="home_love">猜你喜欢</text>
 		<view class="home_foot_fix">
-			<view class="home_foot_left">
+			<view class="home_foot_left" wx:for="{{3}}" wx:key="index" data-index="{{index}}" bindtap="onGodetails">
+				<image src="/image/ye/bg2.jpg"></image>
+				<text class="home_foot_t_one">泰国平面波浪枕</text>
+				<text class="home_foot_t_two">泰国天然乳胶原料</text>
+				<text class="home_foot_t_three">￥228.00</text>
+			</view>
+			
+			<!-- <view class="home_foot_left">
 				<image src="/image/ye/bg2.jpg"></image>
 				<text class="home_foot_t_one">泰国平面波浪枕</text>
 				<text class="home_foot_t_two">泰国天然乳胶原料</text>
@@ -239,15 +244,9 @@
 				<text class="home_foot_t_one">泰国平面波浪枕</text>
 				<text class="home_foot_t_two">泰国天然乳胶原料</text>
 				<text class="home_foot_t_three">￥228.00</text>
-			</view>
-			<view class="home_foot_left">
-				<image src="/image/ye/bg2.jpg"></image>
-				<text class="home_foot_t_one">泰国平面波浪枕</text>
-				<text class="home_foot_t_two">泰国天然乳胶原料</text>
-				<text class="home_foot_t_three">￥228.00</text>
-			</view>
+			</view> -->
 		</view>
 
-		<text class="home_foot_all">查看全部宝贝</text>
+		<text class="home_foot_all" bindtap="onTabBar">查看全部宝贝</text>
 	</view>
 </view>

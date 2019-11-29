@@ -11,6 +11,7 @@
     "pages/di/settle/settle",
     "pages/di/evaluas/evaluas",
     "pages/di/application/application",
+    "pages/di/refundful/refundful",
     "pages/di/take/take",
     "pages/di/collection/collection",
     "pages/di/browse/browse",

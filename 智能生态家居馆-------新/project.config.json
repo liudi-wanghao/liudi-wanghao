@@ -15,7 +15,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.9.3",
 	"appid": "wxcec2b7bc261ce1a7",
-	"projectname": "%E6%99%BA%E8%83%BD%E7%94%9F%E6%80%81%E5%AE%B6%E5%B1%85%E9%A6%86-%E6%96%B0",
+	"projectname": "%E6%99%BA%E8%83%BD%E7%94%9F%E6%80%81%E5%AE%B6%E5%B1%85%E9%A6%86-%E6%96%B01",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -104,22 +104,8 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/di/browse/browse",
-					"pathName": "pages/di/browse/browse",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
 					"name": "pages/di/details/details",
 					"pathName": "pages/di/details/details",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/di/home/home",
-					"pathName": "pages/di/home/home",
 					"query": "",
 					"scene": null
 				},
@@ -155,6 +141,55 @@
 					"id": -1,
 					"name": "pages/my/orderform/orderform",
 					"pathName": "pages/my/orderform/orderform",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/di/refundful/refundful",
+					"pathName": "pages/di/refundful/refundful",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/my/orderform/orderform",
+					"pathName": "pages/my/orderform/orderform",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/my/history/history",
+					"pathName": "pages/my/history/history",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/my/discounts/discounts",
+					"pathName": "pages/my/discounts/discounts",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/di/evaluas/evaluas",
+					"pathName": "pages/di/evaluas/evaluas",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/di/take/take",
+					"pathName": "pages/di/take/take",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/di/settle/settle",
+					"pathName": "pages/di/settle/settle",
 					"query": "",
 					"scene": null
 				}

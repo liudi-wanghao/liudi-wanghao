@@ -1,0 +1,64 @@
+<!--pages/di/refundful/refundful.wxml-->
+<view class="refun_all">
+	<view class="refun_wrap">
+		<view class="refun_one_center">
+			<view class="refun_one">
+				<text>您已退款成功！请耐心等待金额到账</text>
+				<text>2019年6月29日 20:00</text>
+			</view>
+		</view>
+	</view>
+	<view class="refun_two">
+		<text>退款信息</text>
+	</view>
+	<view class="refun_three">
+		<view class="refun_three_center">
+			<image src="/image/ye/person1.png"></image>
+			<view class="refun_three_right">
+				<view class="three_right_top">
+					<text>POKALEN乳胶枕头泰国原装进口颈椎天然</text>
+				</view>
+				<view class="three_right_bottom">
+					<text>天然乳胶</text>
+					<text>X1</text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="refun_four">
+		<view class="refun_four_center">
+			<view class="refun_four_one">
+				<text>退款原因：</text>
+				<text>七天无理由</text>
+			</view>
+			<view class="refun_four_one">
+				<text>退款金额：</text>
+				<text>￥299.00</text>
+			</view>
+			<view class="refun_four_one">
+				<text>申请件数：</text>
+				<text>1</text>
+			</view>
+			<view class="refun_four_one">
+				<text>申请时间：</text>
+				<text>2019-6-29 19：59</text>
+			</view>
+			<view class="refun_four_one">
+				<text>退款编号：</text>
+				<text>9876543211025666</text>
+			</view>
+		</view>
+	</view>
+	<view class="refun_five">
+		<view class="refun_five_center">
+			<text>退款总金额</text>
+			<text>￥299.00</text>
+		</view>
+	</view>
+	<view class="refun_five">
+		<view class="refun_sex_center">
+			<text>售后服务与评价</text>
+			<text>></text>
+		</view>
+	</view>
+</view>

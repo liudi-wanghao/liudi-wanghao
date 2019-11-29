@@ -5,7 +5,32 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+	alldata:[
+		{
+			id:0,
+			pic:"../../../image/ye/bg4.jpg",
+			name:"泰浪平面枕",
+			text:"泰国波浪平面枕",
+			price:"228.00",
+			state:false
+		},
+		{
+			id:1,
+			pic:"../../../image/ye/bg4.jpg",
+			name:"泰国波浪平面枕",
+			text:"泰国波面枕",
+			price:"238.00",
+			state:false
+		},
+		{
+			id:3,
+			pic:"../../../image/ye/bg4.jpg",
+			name:"泰国面枕",
+			text:"泰国波浪枕",
+			price:"278.00",
+			state:false
+		}
+	]
   },
 
   /**
@@ -28,39 +53,29 @@ Page({
   onShow: function () {
 
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
+	//事件
+	onCollect(e){
+		let num = e.currentTarget.dataset.index
+		this.data.alldata.forEach((item,index)=>{
+			if(index == num){
+				item.state = !item.state
+			}
+		})
+		this.setData({
+			alldata:this.data.alldata
+		})
+		//存储
+		let arr =this.data.alldata.filter(item=>{
+			return item.state
+		})
+		wx.setStorageSync("key",arr)
+	},
+	//去详情
+	onDetails(e){
+		let id = e.currentTarget.dataset.id
+		wx.navigateTo({
+			url:"/pages/di/details/details?id="+id
+		})
+		
+	}
 })

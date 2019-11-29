@@ -12,10 +12,10 @@
 	width:100vw;
 	background-color:#f7f7f7;
 }
+/*  */
 .shop_list{
-	display:flex;
-	align-items: center;
-	justify-content: space-around;
+	box-sizing: border-box;
+	padding:56rpx 24rpx 50rpx 24rpx;
 	width:100%;
 	height:296rpx;
 	margin-bottom:20rpx;
@@ -25,6 +25,9 @@
 .shop_start{
 	width:42rpx;
 	height:42rpx;
+	float:left; /* ? */
+	margin-top:70rpx;
+	margin-left: 5px
 }
 .shop_start .acti{
 	color:#278c58;
@@ -37,6 +40,8 @@
 .shop_pic{
 	width:180rpx;
 	height:180rpx;
+	float:left; /* ? */
+	margin-left:30rpx;
 }
 .shop_pic image{
 	width:85%;
@@ -48,7 +53,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	height:180rpx;
-	margin-left:-80rpx;
+	float:left;  /* ? */
 }
 .shop_title text:nth-child(1){
 	color:#333;
@@ -79,8 +84,10 @@
 	align-items: center;
 	width:100rpx;
 	height:180rpx;
+	margin-left:214rpx;
 	background-color:#f7f7f7;
 	border-radius:5px;
+	float:left;  /* ? */
 }
 .shop_rome icon{
 	font-size:43rpx;
@@ -98,8 +105,11 @@
 	justify-content: center;
 	width:162rpx;
 	height:32rpx;
-	margin-bottom:-130rpx;
+	margin-top:152rpx;
+	margin-left:152rpx;
 	color:#b5b5b5;
+	float:left;  /* ? */
+	
 }
 .shop_pice .count{
 	width:46rpx;
@@ -120,7 +130,7 @@
 	text-align: center;
 	line-height:32rpx;
 }
-
+/*  */
 
 
 
