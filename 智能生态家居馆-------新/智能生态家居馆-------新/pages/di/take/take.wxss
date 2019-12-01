@@ -1,0 +1,267 @@
+/* pages/di/take/take.wxss */
+@import "/font/iconfont.wxss";
+
+.take_wrap {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.take_wrap_center {
+	width: 90vw;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.take_one {
+	height: 300rpx;
+	display: flex;
+	flex-direction: column;
+	margin: 20rpx 0 0 0;
+}
+
+.take_one_one {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.take_one_two {
+	display: flex;
+	flex-direction: column;
+}
+
+.take_text_one text {
+	font-size: 35rpx;
+	color: rgb(77, 77, 77);
+}
+
+.take_one_three {
+	height: 50rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.take_one_three text {
+	font-size: 35rpx;
+	color: rgb(72, 72, 72);
+}
+
+.take_one_three icon {
+	display: flex;
+	font-size: 35rpx;
+}
+
+.take_one_four {
+	display: flex;
+	height: 50rpx;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50rpx 0 0 0;
+}
+
+.take_one_four_one {
+	display: flex;
+	height: 50rpx;
+	align-items: center;
+}
+
+.take_one_four_one text {
+	color: rgb(195, 195, 195);
+	font-size: 30rpx;
+}
+
+.take_one_four_one icon {
+	font-size: 30rpx;
+	display: flex;
+	height: 50rpx;
+	align-items: center;
+}
+
+.take_one_four_two {
+	display: flex;
+	height: 50rpx;
+	align-items: center;
+}
+
+.take_one_four_two text {
+	font-size: 30rpx;
+	color: rgb(180, 180, 180);
+}
+
+.take_one_four_two text :nth-child(2) {
+	margin: 0 20rpx 0 0;
+}
+
+.take_fix {
+	width: 90vw;
+	height: 92rpx;
+	display: flex;
+	background: rgb(223, 22, 21);
+	border-radius: 10rpx;
+	align-items: center;
+	justify-content: center;
+	margin: 50rpx 0 0 0;
+}
+
+.take_fix_one {
+	width: 30rpx;
+	height: 30rpx;
+	display: flex;
+	align-items: center;
+	background: #fff;
+	justify-content: center;
+	color: rgb(223, 22, 21);
+	font-size: 30rpx;
+}
+
+.take_fix text {
+	font-size: 30rpx;
+	color: rgb(251, 230, 230);
+	margin: 0 0 0 30rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.showMo {
+	width: 100vw;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgb(99, 99, 99);
+	opacity: .8;
+}
+
+.addTake {
+	width: 90vw;
+	height: 550rpx;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10rpx;
+	position: absolute;
+	top: 45%;
+	left: 5vw;
+}
+
+.addTake_one {
+	display: flex;
+	height: 100rpx;
+	align-items: center;
+	border-bottom: 1px solid rgb(247, 247, 247);
+}
+
+.addTake_one text:nth-child(1) {
+	width: 80vw;
+	display: flex;
+	justify-content: center;
+	font-size: 35rpx;
+	color: rgb(68, 68, 68);
+}
+
+.addTake_one text:nth-child(2) {
+	width: 10vw;
+	font-size: 30rpx;
+	color: rgb(159, 159, 159);
+	display: flex;
+	justify-content: center;
+}
+
+.addTake_two {
+	display: flex;
+	align-items: center;
+	height: 100rpx;
+	border-bottom: 1px solid rgb(247, 247, 247);
+}
+
+.addTake_two_inp {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 44vw;
+	border-right: 1px solid rgb(247, 247, 247);
+}
+
+.addTake_two_inp text {
+	font-size: 25rpx;
+	display: flex;
+	justify-content: center;
+	margin: 0 0 0 10rpx;
+	color: rgb(176, 176, 176);
+}
+
+.addTake_two_inp input {
+	width: 28vw;
+	font-size: 25rpx;
+}
+
+.addTake_two_two {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 44vw;
+}
+
+.addTake_two_two text {
+	font-size: 25rpx;
+	display: flex;
+	justify-content: center;
+	margin: 0 0 0 10rpx;
+	color: rgb(176, 176, 176);
+}
+
+.addTake_two_two input {
+	width: 35vw;
+	font-size: 25rpx;
+}
+
+.addTake_three {
+	width: 88vw;
+	height: 200prx;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid rgb(246, 246, 246);
+}
+
+.addTake_three text {
+	height: 80rpx;
+	display: flex;
+	align-items: center;
+	font-size: 30rpx;
+	color: rgb(95, 95, 95);
+}
+
+.addTake_four {
+	width: 90vw;
+	height: 100rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid rgb(251, 251, 251);
+}
+
+.addTake_four input {
+	width: 88vw;
+	height: 100rpx;
+	font-size: 30rpx;
+	margin: 0 auto;
+}
+
+.addTake_five {
+	width: 85vw;
+	height: 100rpx;
+	margin: 30rpx auto;
+	border-radius: 10rpx;
+	background: rgb(204, 204, 204);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35rpx;
+	color: rgb(245, 245, 245);
+}

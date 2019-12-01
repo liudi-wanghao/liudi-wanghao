@@ -1,0 +1,306 @@
+<!--pages/di/details/details.wxml-->
+<view class="details">
+	<view class="detail_wrap">
+		<swiper indicator-dots="true" autoplay="true" circular="true">
+			<swiper-item class="swipq_item">
+				<image src="/image/ye/oiu.jpg"></image>
+			</swiper-item>
+			<swiper-item class="swipq_item">
+				<image src="/image/ye/222.jpg"></image>
+			</swiper-item>
+			<swiper-item class="swipq_item">
+				<image src="/image/ye/222.jpg"></image>
+			</swiper-item>
+		</swiper>
+		<icon class="iconfont icon-sangedian"></icon>
+		<icon class="iconfont icon-gouwuche"></icon>
+	</view>
+	<view class="details_two">
+		<view class="details_two_one">
+			<text class="dettails_one_text">新款正品万泰林/煊赫乳胶枕/泰国正品波浪按摩枕60*40cm</text>
+			<button class="details_two_two" open-type="share" bindtap="">
+				<icon class="iconfont icon-fenxiang"></icon>
+				<text>分享</text>
+			</button>
+		</view>
+		<text class="details_three">￥118-159</text>
+		<view class="details_four">
+			<text>快递：免运费</text>
+			<text>已拼118笔</text>
+		</view>
+	</view>
+	<view class="details_five">
+		<view class="details_five_m">
+			<view class="details_five_one">
+				<view class="details_five_one_one">
+					<text>aaa</text>
+					<text>10元店铺优惠券</text>
+				</view>
+				<view class="details_five_one_one">
+					<text>aaa</text>
+					<text>10元店铺优惠券</text>
+				</view>
+			</view>
+			<view class="details_five_two">
+				<image src="/image/ye/right.png"></image>
+			</view>
+		</view>
+
+	</view>
+	<view class="details_sex">
+		<view class="details_a">
+			<view>1</view>
+			<text>7天无理由</text>
+			<text>.</text>
+			<text>48小时发货</text>
+			<text>.</text>
+			<text>假一赔十</text>
+			<text>.</text>
+			<text>全场包邮</text>
+			<view class="details-sex_img">
+				<image src="/image/ye/right.png"></image>
+			</view>
+		</view>
+	</view>
+	<view class="details_seven">
+		<view class="details_s">
+
+
+			<view class="details_seven_one">
+				<image src="/image/ye/4.png"></image>
+				<text>团长</text>
+			</view>
+			<text class="details_lorem">Lorem Lpsum</text>
+			<view class="details_yu">
+				<text class="details_yu_text">差3人拼成</text>
+				<view class="details_yu_two">
+					<text>剩余</text>
+					<view>
+						{{time}}
+						<text>:</text>
+						{{minute}}
+						<text>:</text>
+						{{second}}
+
+					</view>
+					<text>结束</text>
+				</view>
+			</view>
+			<view class="details_lorem_pin">
+				去拼单
+			</view>
+		</view>
+	</view>
+	<view class="detaiils_judge_no">
+		<view class="details_judge_wrn">
+			<view class="details_judge_text">
+				<text>商品评价(8823)</text>
+				<text>查看更多></text>
+			</view>
+			<view class="details_judge_two">
+				<view class="details_judge_pin">
+					<text>便宜</text>
+					<text>(126)</text>
+				</view>
+				<view class="details_judge_pin">
+					<text>质量好</text>
+					<text>(111)</text>
+				</view>
+				<view class="details_judge_pin">
+					<text>软硬度好</text>
+					<text>(52)</text>
+				</view>
+				<view class="details_judge_pin">
+					<text>服务态度好</text>
+					<text>(46)</text>
+				</view>
+				<view class="details_judge_pin">
+					<text>服务态度好</text>
+					<text>(46)</text>
+				</view>
+				<view class="details_judge_pin">
+					<text>服务态度好</text>
+					<text>(46)</text>
+				</view>
+			</view>
+			<view class="details_judge_three">
+				<view class="details_judge_one">
+					<image src="/image/ye/4.png"></image>
+					<text>Lorem | psum</text>
+				</view>
+				<view>
+					<text>
+						sadasdsad
+					</text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="details_judge">
+		<view class="details_judge_center">
+			<view class="details_judge_one">
+				<image src="/image/ye/4.png"></image>
+				<text>Krasgeng</text>
+			</view>
+			<view class="details_judge_mo">
+				<text>商品评价!!!!!!我的天 太棒 ，偶买噶商品评价!!!偶买噶商品评价!!!!!!我的天 太棒 ，偶买噶</text>
+			</view>
+			<view class="details_judge_img">
+				<image src="/image/ye/2.jpg"></image>
+				<image src="/image/ye/2.jpg"></image>
+				<image src="/image/ye/2.jpg"></image>
+			</view>
+		</view>
+	</view>
+	<view class="details_more">
+		<text>查看更多 ↓</text>
+	</view>
+	<view class="details_shop_de">
+		<text>商品详情</text>
+	</view>
+	<view class="details_nine">
+		<view class="details_cent">
+			<view class="details_nine_one">
+				<image src="/image/ye/pillow1.png" class="details_nine_img"></image>
+				<text class="details_text">乳胶按摩枕</text>
+				<view class="home_elevn_bot">
+					<image src="/image/ye/logo2.gif" class="home_elevn_b_img"></image>
+					<text class="home_elevn_b_text">￥238.00</text>
+					<view class="home_elevn_one_two">
+						<text>立即购买</text>
+						<image src="/image/ye/z1.gif"></image>
+					</view>
+				</view>
+			</view>
+			<view class="details_nine_one">
+				<image src="/image/ye/pillow1.png" class="details_nine_img"></image>
+				<text class="details_text">乳胶按摩枕</text>
+				<view class="home_elevn_bot">
+					<image src="/image/ye/logo2.gif" class="home_elevn_b_img"></image>
+					<text class="home_elevn_b_text">￥238.00</text>
+					<view class="home_elevn_one_two">
+						<text>立即购买</text>
+						<image src="/image/ye/z1.gif"></image>
+					</view>
+				</view>
+			</view>
+			<view class="details_nine_one">
+				<image src="/image/ye/pillow1.png" class="details_nine_img"></image>
+				<text class="details_text">乳胶按摩枕</text>
+				<view class="home_elevn_bot">
+					<image src="/image/ye/logo2.gif" class="home_elevn_b_img"></image>
+					<text class="home_elevn_b_text">￥238.00</text>
+					<view class="home_elevn_one_two">
+						<text>立即购买</text>
+						<image src="/image/ye/z1.gif"></image>
+					</view>
+				</view>
+			</view>
+			<view class="details_nine_one">
+				<image src="/image/ye/pillow1.png" class="details_nine_img"></image>
+				<text class="details_text">乳胶按摩枕</text>
+				<view class="home_elevn_bot">
+					<image src="/image/ye/logo2.gif" class="home_elevn_b_img"></image>
+					<text class="home_elevn_b_text">￥238.00</text>
+					<view class="home_elevn_one_two">
+						<text>立即购买</text>
+						<image src="/image/ye/z1.gif"></image>
+					</view>
+				</view>
+			</view>
+		</view>
+
+	</view>
+	<view class="details_nex">
+		<image src="/image/ye/person1.png"></image>
+		<image src="/image/ye/person2.png"></image>
+		<image src="/image/ye/person3.png"></image>
+		<image src="/image/ye/person4.png"></image>
+		<image src="/image/ye/person5.png"></image>
+		<image src="/image/ye/person6.png"></image>
+
+
+	</view>
+	<!-- 底部导航 -->
+	<view class="nav">
+		<view class="nav-left">
+			<view class="home" catchtap="onHome">
+				<icon class="iconfont icon-shouye"></icon>
+				<text>首页</text>
+			</view>
+			<view class="home" catchtap="onCollect">
+				<icon class="iconfont icon-shoucang" wx:if="{{true}}"></icon>
+				<icon class="iconfont icon-shoucang1 red" wx:if="{{false}}"></icon>
+				<text>收藏</text>
+			</view>
+			<view class="home">
+				<icon class="iconfont icon-kefu"></icon>
+				<text>客服</text>
+			</view>
+		</view>
+		<view class="nav-right">
+			<view class="right-text" data-cold="{{0}}" catchtap="onPopup">
+				<text>￥ 898</text>
+				<text>单独购买</text>
+			</view>
+			<view class="right-text" data-cold="{{1}}" catchtap="onPopup1">
+				<text>￥ 898</text>
+				<text>发起拼单</text>
+			</view>
+		</view>
+	</view>
+	<!-- 遮罩层 -->
+	<van-popup show="{{ show }}" position="bottom" custom-style="height: 69%;" bind:close="onClose">
+
+		<view class="popup">
+			<view class="popup-top">
+				<!-- 图片说明 -->
+				<view class="pict-text">
+					<view class="pic">
+						<image src="/image/ye/logo2.gif"></image>
+					</view>
+					<view class="price">
+						<text>￥122-133</text>
+						<view class="text">库存2323件</view>
+						<view class="text">请选择尺码</view>
+					</view>
+				</view>
+				<!-- 字体图标-->
+				<view class="font" catchtap="onClose">
+					<icon class="iconfont icon-guanbi1"></icon>
+				</view>
+			</view>
+			<view class="popup-center">
+				<view class="h1">尺码</view>
+				<view class="size">
+					<view class="taglia {{index == size?'red':''}}" wx:for="{{eticette}}" wx:key="index" data-index="{{index}}"
+					 data-item="{{item}}" catchtap="onSize">{{item}}</view>
+				</view>
+			</view>
+			<view class="popup-center">
+				<view class="h1">颜色</view>
+				<view class="size">
+					<view class="taglia {{index == color?'red':''}}" wx:for="{{colourArr}}" wx:key="index" data-index="{{index}}"
+					 data-item="{{item}}" catchtap="onColor">{{item}}</view>
+				</view>
+			</view>
+			<!-- 数量 -->
+			<view class="quantity">
+				<view class="quantity-num">
+					数量
+				</view>
+				<view class="how-many">
+					<view class="symbol {{num>1?'all':''}}" catchtap="onSubtract"> - </view>
+					<view class="num"> {{num}} </view>
+					<view class="symbol all" catchtap="onAdd"> + </view>
+				</view>
+			</view>
+
+		</view>
+
+		<view class="Yes" bindtap="ascertain">
+			确认
+		</view>
+	</van-popup>
+
+</view>

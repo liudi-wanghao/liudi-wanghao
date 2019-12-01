@@ -1,0 +1,250 @@
+<!--pages/di/home/home.wxml-->
+
+
+
+<view class="home_wrap">
+	<image src="/image/ye/bg.jpg" class="home_w_im"></image>
+	<swiper indicator-dots="true" autoplay="true" circular="true" previous-margin="60rpx" next-margin="40rpx">
+		<swiper-item class="swip_item">
+			<image src="/image/ye/222.jpg"></image>
+		</swiper-item>
+		<swiper-item class="swip_item">
+			<image src="/image/ye/222.jpg"></image>
+		</swiper-item>
+		<swiper-item class="swip_item">
+			<image src="/image/ye/222.jpg"></image>
+		</swiper-item>
+	</swiper>
+</view>
+
+
+
+<view class="home_wrap_two">
+	<image src="/image/ye/bg_11.png" class="home_two_img"></image>
+	<text class="home_two_text">快来和我拼团把!!</text>
+	<view class="home_wrap_three">
+		<view class="home_wrap_three_deta">
+			<image src="/image/ye/1.png"></image>
+			<view class="home_wrap_three_right">
+				<text class="home_right_text">双面透气设计呵护颈椎健康泰国乳胶薄款平面枕头</text>
+				<view class="home_right_t_two">
+					<text>￥228</text>
+					<text>￥150</text>
+				</view>
+				<text class="home_right_t_three">限时抢购</text>
+			</view>
+		</view>
+	</view>
+	<view class="home_wrap_bottom">
+
+		<view class="home_wrap_bottom_img">
+			<view class="home_wrap_bottom_top">
+				<image src="/image/ye/1.png"></image>
+				<text class="home_wrap_bottom_fixed">团长</text>
+			</view>
+
+			<image src="/image/ye/1.png"></image>
+			<image src="/image/ye/1.png"></image>
+			<image src="/image/ye/1.png"></image>
+			<image src="/image/ye/1.png"></image>
+		</view>
+		<view class="home_wrap_bottom_left">
+			<text>仅剩<text class="three">3</text>人，快召唤小伙伴来参加吧!</text>
+		</view>
+		<view class="order_bottom">
+
+			<view class="order">
+				<text class="line"></text>
+				<view class="txt">
+					剩余 <text>{{time}}</text> : <text>{{minute}}</text> : <text>{{second}}</text> 结束
+				</view>
+				<text class="line"></text>
+			</view>
+
+		</view>
+	</view>
+
+</view>
+<view class="home_wrap_four">
+	<image src="/image/ye/logo1.gif"></image>
+	<text class="home_four_one">玩趣加购 分享有礼</text>
+	<text class="home_four_two">先领券 再购物</text>
+</view>
+<!-- 购物卷 -->
+<view class="home_wrap_five">
+	<image src="/image/ye/quan4.gif" wx:for="{{4}}" wx:key="index" bindtap="onGet"></image>
+</view>
+
+<view class="home_wrap_sex">
+	<image src="/image/ye/bg_11.png" class="home_sex_img"></image>
+	<view class="home_sex_one">
+		<image src="/image/ye/logo3.gif"></image>
+		<image src="/image/ye/logo1.gif"></image>
+		<text>泰国平面波浪枕</text>
+	</view>
+</view>
+<view class="home_wrap_seven">
+	<image src="/image/ye/pillow_1.gif"></image>
+	<view class="home_seven_one">
+		<view class="home_seven_one_one">
+			<image src="/image/ye/logo2.gif"></image>
+			<text>￥228.00</text>
+		</view>
+		<view class="home_seven_one_two">
+			<text>立即购买</text>
+			<image src="/image/ye/z1.gif"></image>
+		</view>
+	</view>
+</view>
+
+<view class="home_wrap_eight">
+	<image src="/image/ye/bg_1.gif"></image>
+</view>
+
+<view class="home_wrap_nine">
+	<image src="/image/ye/pillow1.png" class="home_nine_img"></image>
+	<view class="home_nine_right">
+		<image src="/image/ye/logo1.gif" class="home_nine_r_img"></image>
+		<text class="home_nine_text">泰国平面乳胶枕</text>
+		<image src="/image/ye/pillow_3.gif" class="home_nine_ri_img"></image>
+		<text class="home_nine_r_text">￥228.00</text>
+		<view class="home_nine_one_two">
+			<text>立即购买</text>
+			<image src="/image/ye/z1.gif"></image>
+		</view>
+	</view>
+</view>
+
+<view class="home_wrap_ten">
+	<image src="/image/ye/logo1.gif" class="home_ten_img"></image>
+	<text class="home_ten_text">泰国波浪按摩枕</text>
+	<image src="/image/ye/pillow_4.gif" class="home_ten_bot"></image>
+</view>
+
+<view class="home_wrap_elevn">
+	<view class="home_elevn_left">
+		<text class="home_e_l_text">波浪按摩枕</text>
+		<image src="/image/ye/bg1.jpg" class="home_elevn_img"></image>
+		<view class="home_elevn_bot">
+			<image src="/image/ye/logo2.gif" class="home_elevn_b_img"></image>
+			<text class="home_elevn_b_text">￥238.00</text>
+			<view class="home_elevn_one_two">
+				<text>立即购买</text>
+				<image src="/image/ye/z1.gif"></image>
+			</view>
+		</view>
+	</view>
+	<view class="home_elevn_left">
+		<text class="home_e_l_text">狼牙按摩枕</text>
+		<image src="/image/ye/bg1.jpg" class="home_elevn_img"></image>
+		<view class="home_elevn_bot">
+			<image src="/image/ye/logo2.gif" class="home_elevn_b_img"></image>
+			<text class="home_elevn_b_text">￥228.00</text>
+			<view class="home_elevn_one_two">
+				<text>立即购买</text>
+				<image src="/image/ye/z1.gif"></image>
+			</view>
+		</view>
+	</view>
+</view>
+
+<view class="home_wrap_sex">
+	<image src="/image/ye/bg_11.png" class="home_sex_img"></image>
+	<view class="home_sex_one">
+		<image src="/image/ye/logo3.gif"></image>
+		<image src="/image/ye/logo1.gif"></image>
+		<text>泰国乳胶美容枕</text>
+	</view>
+</view>
+
+<view class="home_wrap_elevn">
+	<view class="home_elevn_left">
+		<text class="home_sex_text">美容按摩枕</text>
+		<image src="/image/ye/bg1.jpg" class="home_elevn_img"></image>
+		<view class="home_elevn_bot">
+			<image src="/image/ye/logo2.gif" class="home_elevn_b_img"></image>
+			<text class="home_elevn_b_text">￥238.00</text>
+			<view class="home_elevn_one_two">
+				<text>立即购买</text>
+				<image src="/image/ye/z1.gif"></image>
+			</view>
+		</view>
+	</view>
+	<view class="home_elevn_left">
+		<text class="home_sex_text">薄款平面枕</text>
+		<image src="/image/ye/bg1.jpg" class="home_elevn_img"></image>
+		<view class="home_elevn_bot">
+			<image src="/image/ye/logo2.gif" class="home_elevn_b_img"></image>
+			<text class="home_elevn_b_text">￥228.00</text>
+			<view class="home_elevn_one_two">
+				<text>立即购买</text>
+				<image src="/image/ye/z1.gif"></image>
+			</view>
+		</view>
+	</view>
+</view>
+
+<view class="home_wrap_laven">
+	<image src="/image/ye/pillow_5.gif"></image>
+</view>
+
+<view class="home_col">
+	<view class="home_wrap_olevn">
+		<view class="home_olevn_top">
+			<text>排行榜</text>
+			<text>销量排行</text>
+		</view>
+		<view class="home_olevn_bottom">
+			<view class="home_olevn_child">
+				<image src="/image/ye/pillow_5.gif"></image>
+				<view class="home_olevn_grren">1</view>
+				<text class="home_olevn_text">泰国乳胶狼牙按摩枕</text>
+				<text class="home_olevn_one">199人付款</text>
+			</view>
+			<view class="home_olevn_child">
+				<image src="/image/ye/pillow_5.gif"></image>
+				<view class="home_olevn_grren">2</view>
+				<text class="home_olevn_text">泰国乳胶波浪平面枕</text>
+				<text class="home_olevn_one">189人付款</text>
+			</view>
+			<view class="home_olevn_child">
+				<image src="/image/ye/pillow_5.gif"></image>
+				<view class="home_olevn_grren">3</view>
+				<text class="home_olevn_text">泰国乳胶美容按摩枕</text>
+				<text class="home_olevn_one">189人付款</text>
+			</view>
+		</view>
+	</view>
+	<view class="home_foote">
+		<text class="home_love">猜你喜欢</text>
+		<view class="home_foot_fix">
+			<view class="home_foot_left" wx:for="{{3}}" wx:key="index" data-index="{{index}}" bindtap="onGodetails">
+				<image src="/image/ye/bg2.jpg"></image>
+				<text class="home_foot_t_one">泰国平面波浪枕</text>
+				<text class="home_foot_t_two">泰国天然乳胶原料</text>
+				<text class="home_foot_t_three">￥228.00</text>
+			</view>
+
+			<!-- <view class="home_foot_left">
+				<image src="/image/ye/bg2.jpg"></image>
+				<text class="home_foot_t_one">泰国平面波浪枕</text>
+				<text class="home_foot_t_two">泰国天然乳胶原料</text>
+				<text class="home_foot_t_three">￥228.00</text>
+			</view>
+			<view class="home_foot_left">
+				<image src="/image/ye/bg2.jpg"></image>
+				<text class="home_foot_t_one">泰国平面波浪枕</text>
+				<text class="home_foot_t_two">泰国天然乳胶原料</text>
+				<text class="home_foot_t_three">￥228.00</text>
+			</view>
+			<view class="home_foot_left">
+				<image src="/image/ye/bg2.jpg"></image>
+				<text class="home_foot_t_one">泰国平面波浪枕</text>
+				<text class="home_foot_t_two">泰国天然乳胶原料</text>
+				<text class="home_foot_t_three">￥228.00</text>
+			</view> -->
+		</view>
+
+		<text class="home_foot_all" bindtap="onTabBar">查看全部宝贝</text>
+	</view>
+</view>

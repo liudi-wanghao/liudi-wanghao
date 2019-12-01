@@ -1,0 +1,69 @@
+<!--pages/di/take/take.wxml-->
+
+<view class="take_wrap">
+	<view class="take_wrap_center">
+		<!--这是收获地址 -->
+		<view class="take_one" data-index="{{item.index}}" wx:for="{{arr}}">
+			<view class="take_one_one" bindtap="clearIn">
+				x
+			</view>
+			<view class="take_one_two">
+				<view class="take_text_one">
+					<text>{{item.user}}，</text>
+					<text>{{item.phone}}</text>
+				</view>
+				<view class="take_one_three">
+					<text>{{item.addres}}</text>
+					<icon class="iconfont icon-dingweiweizhi"></icon>
+				</view>
+				<view class="take_one_four">
+					<view class="take_one_four_one">
+						<!-- <icon class="iconfont icon-xuanzhongyuandian"></icon> -->
+						<icon class="iconfont icon-xuanzhong-copy"></icon>
+						<text>设为默认</text>
+					</view>
+					<view class="take_one_four_two">
+						<text>编辑</text>
+						<text>取消置顶</text>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<!--这是收获地址结束 -->
+		<view class="take_fix" bindtap="addTake">
+			<view class="take_fix_one">
+				+
+			</view>
+			<text>添加新收获地址</text>
+		</view>
+		<view class="showMo" wx:if="{{showModel}}"></view>
+		<view class="addTake" wx:if="{{status}}">
+			<view class="addTake_one">
+				<text>添加新收获地址</text>
+				<text bindtap="clearAdd">X</text>
+			</view>
+			<view class="addTake_two">
+				<view class="addTake_two_inp">
+					<text>收货姓名</text>
+					<input type="text" name="user" value="{{user}}" bindblur="getInputUser"></input>
+				</view>
+				<view class="addTake_two_two">
+					<text>电话</text>
+					<input type="text" name="phone" value="{{phone}}" bindblur="getInputPhone"></input>
+				</view>
+			</view>
+			<view class="addTake_three">
+				<text bindtap="xuanze">选择地区</text>
+				<text>></text>
+			</view>
+			<view class="addTake_four">
+				<input type="text" placeholder="详细地址(如街道、小区、乡镇、村)" name="addres" value="{{addres}}" bindblur="getInputAddress"></input>
+			</view>
+			<view class="addTake_five" bindtap="baocun">
+				<text>保存</text>
+			</view>
+		</view>
+	</view>
+
+</view>

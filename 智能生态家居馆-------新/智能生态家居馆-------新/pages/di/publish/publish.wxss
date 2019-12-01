@@ -1,0 +1,81 @@
+/* pages/di/publish/publish.wxss */
+@import "/font/iconfont.wxss";
+
+.publich_wrap {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+}
+
+.publich_one {
+	width: 100vw;
+	display: flex;
+	border-top: 2px solid rgb(251, 251, 251);
+	border-bottom: 1px solid rgb(251, 251, 251);
+}
+
+.publich_one_center {
+	width: 95vw;
+	height: 200rpx;
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.publich_one_center image {
+	width: 100rpx;
+	height: 100rpx;
+}
+
+.publich_one_text {
+	font-size: 30rpx;
+	margin: 0 0 0 20rpx;
+}
+
+.publich_one_star {
+	display: flex;
+	align-items: center;
+	margin: 0 0 0 10rpx;
+}
+
+.publich_one_star icon {
+	display: flex;
+	align-items: center;
+	margin: 0 0 0 10rpx;
+}
+
+.publich_one_right {
+	font-size: 30rpx;
+	color: rgb(176, 176, 176);
+	margin: 0 0 0 30rpx;
+}
+
+.publich_two {
+	width: 100vw;
+	height: 500rpx;
+	display: flex;
+	background: #0077AA;
+	flex-direction: column;
+	position: relative;
+}
+
+.publich_two_one {
+	font-size: 25rpx;
+	color: rgb(178, 178, 178);
+	text-indent: 20rpx;
+	margin: 20rpx 0 0 0;
+}
+
+.publich_two_two {
+	width: 200rpx;
+	height: 200rpx;
+	border: 1px dotted rgb(168, 168, 168);
+	position: absolute;
+	bottom: 20rpx;
+	left: 30rpx;
+}
+.publich_two_two text{
+	font-size: 30rpx;
+	display: flex;
+	justify-content: center;
+}

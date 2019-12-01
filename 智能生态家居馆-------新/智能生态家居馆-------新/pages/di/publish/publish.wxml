@@ -1,0 +1,30 @@
+<!--pages/di/publish/publish.wxml-->
+<view class="publich_wrap">
+	<view class="publich_one">
+		<view class="publich_one_center">
+			<image src="/image/ye/2.png"></image>
+			<text class="publich_one_text">描述相符</text>
+			<view class="publich_one_star">
+				<icon class="iconfont icon-shoucang1"></icon>
+				<icon class="iconfont icon-shoucang1"></icon>
+				<icon class="iconfont icon-shoucang1"></icon>
+				<icon class="iconfont icon-shoucang1"></icon>
+				<icon class="iconfont icon-shoucang1"></icon>
+			</view>
+			<text class="publich_one_right">非常好</text>
+
+		</view>
+	</view>
+	<view class="publich_two">
+		<text class="publich_two_one">宝贝满足你的期待吗？说说你的使用心得，分享给想买的他们吧</text>
+		<view class="publich_two_two" bindtap="publishAdd">
+			<block wx:for="{{tempFilePaths}}" wx:key="{{index}}">
+				<image src="{{item}}" data-index="{{index}}" style="width:50rpx;height:50rpx" />
+			</block>
+			<text>添加图片</text>
+		</view>
+	</view>
+	<view class="publich_three">
+		
+	</view>
+</view>
